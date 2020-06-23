@@ -1,11 +1,11 @@
 body {
-    background-color: lightgray;
+    background-color: #D1FFFF;
     
     
 }
     header {
         display: inline-block;
-        background-color: pink;
+        /* background-color: pink; */
         width: 800px;
         height: 50px;
         margin-top: 50px;
@@ -14,14 +14,14 @@ body {
         header > img {
             display: inline-block;
             width: 50px;
-            background-color: red;
+            /* background-color: red; */
         }
         nav {
             display: inline-block;
             float: right;
             height: 50px;
             
-            background-color: coral;
+            /* background-color: coral; */
             font-size: 15px;
 
         }
@@ -60,7 +60,7 @@ body {
             
     main {
         display: inline-block;
-        background-color: lightblue;
+        /* background-color: lightblue; */
         width: 800px;
         margin-top: 10px;
         margin-left: calc(50% - 400px);
@@ -68,7 +68,7 @@ body {
         div {
             display: inline-block;
             margin-top: 40px;
-            background-color: cyan;
+            /* background-color: cyan; */
             width: 35%;
             float: left;
             font-family: verdana;
@@ -107,7 +107,7 @@ body {
             }
         main > img {
             display: inline-block;
-            background-color: yellow;
+            /* background-color: yellow; */
             width: 60%;
             float: right;
         }
