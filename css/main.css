@@ -4,8 +4,10 @@ body {
     
 }
     header {
+        display: inline-block;
         background-color: pink;
         width: 800px;
+        height: 50px;
         margin-top: 50px;
         margin-left: calc(50% - 400px);
     }
@@ -17,12 +19,45 @@ body {
         nav {
             display: inline-block;
             float: right;
+            height: 50px;
+            
             background-color: coral;
+            font-size: 15px;
 
         }
-            a {
+            .different{
+                display: inline-block;
+                margin-top: 10;
+
+                background-color: #6215F9;
+                width: 100px;
+                height: 25px;
+                padding-top: 9px;
+                border-style: solid;
+                border-color: #6215F9;
+                border-radius: 25px;
+
+                color: white;
+                text-align: center;
+                text-decoration: none;
+
             }
 
+            .different:hover{
+                color: #6215F9;
+                background-color: transparent;
+            }
+
+            .same {
+                display: inline-block;
+                color: #666666;
+                text-decoration: none;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-top: 17px;
+                
+            }
+            
     main {
         display: inline-block;
         background-color: lightblue;
@@ -32,6 +67,7 @@ body {
     }
         div {
             display: inline-block;
+            margin-top: 40px;
             background-color: cyan;
             width: 35%;
             float: left;
