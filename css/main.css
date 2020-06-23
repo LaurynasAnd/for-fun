@@ -1,0 +1,37 @@
+
+body {
+    background-color: lightblue;
+
+    header {
+        width: 800px; margin-top: 40px; 
+        margin-left: calc(50% - 400px); 
+        background-color: red;
+    
+        nav {
+            display: inline-block;
+            float: right;
+        }
+        header > img {
+            display: inline-block;
+        }
+    }
+    main {
+        display: inline-block; width: 800px; 
+        margin-left: calc(50% - 400px); 
+        background-color: yellow;
+    
+        div {
+            display: inline-block; 
+            width: 35%; 
+            float: left; 
+            background-color: lightgreen;
+        }
+        
+        main > img {
+            display: inline-block; 
+            float: right; 
+            width: 60%; 
+            background-color: pink;
+        }
+    }
+}
