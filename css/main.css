@@ -1,37 +1,77 @@
-
 body {
-    background-color: lightblue;
-
-    header {
-        width: 800px; margin-top: 40px; 
-        margin-left: calc(50% - 400px); 
-        background-color: red;
+    background-color: lightgray;
     
+    
+}
+    header {
+        background-color: pink;
+        width: 800px;
+        margin-top: 50px;
+        margin-left: calc(50% - 400px);
+    }
+        header > img {
+            display: inline-block;
+            width: 50px;
+            background-color: red;
+        }
         nav {
             display: inline-block;
             float: right;
+            background-color: coral;
+
         }
-        header > img {
-            display: inline-block;
-        }
-    }
+            a {
+            }
+
     main {
-        display: inline-block; width: 800px; 
-        margin-left: calc(50% - 400px); 
-        background-color: yellow;
-    
-        div {
-            display: inline-block; 
-            width: 35%; 
-            float: left; 
-            background-color: lightgreen;
-        }
-        
-        main > img {
-            display: inline-block; 
-            float: right; 
-            width: 60%; 
-            background-color: pink;
-        }
+        display: inline-block;
+        background-color: lightblue;
+        width: 800px;
+        margin-top: 10px;
+        margin-left: calc(50% - 400px);
     }
-}
+        div {
+            display: inline-block;
+            background-color: cyan;
+            width: 35%;
+            float: left;
+            font-family: verdana;
+        }
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 13px;
+                font-style: italic;
+            }
+            div > a {
+                color: white;
+                margin-left: 10px;
+                display: inline-block;
+                width: 180px;
+                height: 40px;
+                border-color: #6215F9;
+                border-style: solid;
+                background-color: #6215F9;
+                border-radius: 40px;
+                
+                font-size: 18px;
+                text-align: center;
+                text-decoration: none;
+                padding-top: 18px;
+            }
+            div > a:link {
+
+            }
+            div > a:hover{
+                color: #6215F9;
+                background-color: transparent;
+                
+               
+            }
+        main > img {
+            display: inline-block;
+            background-color: yellow;
+            width: 60%;
+            float: right;
+        }
