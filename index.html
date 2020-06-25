@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="Here should be logo">
-        <nav>
-            <a href="#" class="same">Home</a>
-            <a href="#" class="same">About Us</a>
-            <a href="#" class="same">Work</a>
-            <a href="#" class="same">Info</a>
-            <a href="#" class="different">Get started</a>
+    <header class="header">
+        <img class="logo" src="./img/logo.png" alt="Here should be logo">
+        <nav class="navigation">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">About Us</a>
+            <a href="#" class="link">Work</a>
+            <a href="#" class="link">Info</a>
+            <a href="signup.html" class="link button">Get started</a>
+            <!-- <a class="different" onclick="document.getElementById('id01').style.display='block'">Get started</a> -->
+            <!-- <button
+                onclick="document.getElementById('id01').style.display='block'" style="width: 600px;">
+                Get started
+            </button> -->
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>Page 404 <br>Not Found</h1>
-            <p>
+    <main class="content">
+        <div class="texts">
+            <h1 class="title">Page 404 <br>Not Found</h1>
+            <p class="description">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, nostrum dolore. Tempore, culpa! Dolorum, obcaecati eligendi. Libero illum dolores commodi!
             </p>
-            <a href="https://www.google.com" target="_blank">Get home</a>
+            <a class="button button-wider" href="https://www.google.com" target="_blank">Get home</a>
         </div>
-        <img src="./img/sick.png" alt="Here should be picture">
+        <img class="main-img" src="./img/sick.png" alt="Here should be picture">
     </main>
 </body>
 </html>
