@@ -1,125 +1,40 @@
 body {
     /* background-color: green; */
-    background-image: url('../img/backgroung.png');
+    /* background-image: url('../img/backgroung.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: verdana;
-    
+     */
 }
     .header {
         display: inline-block;
-        /* background-color: pink; */
         width: 800px;
-        height: 50px;
-        margin-top: 50px;
-        margin-left: calc(50% - 400px);
+        margin: 80px calc(50% - 400px);
+        vertical-align: middle;
     }
-        .logo {
-            display: inline-block;
-            width: 50px;
-            /* background-color: red; */
-        }
-        .navigation {
-            display: inline-block;
-            float: right;
-            height: 50px;
-            
-            /* background-color: coral; */
-            font-size: 15px;
 
-        }
-            
 
-            .link {
-                display: inline-block;
-                color: #666666;
-                text-decoration: none;
-                font-size: 16px;
-                margin-left: 30px;
-                
-                
-            }
-            .link:hover{
-                display: inline-block;
-                text-decoration: underline;
-            }
-            
-    .content {
-        display: inline-block;
-        /* background-color: lightblue; */
-        width: 800px;
-        margin-top: 10px;
-        margin-left: calc(50% - 400px);
-    }
-        .texts {
+        .header > .logo {
             display: inline-block;
-            margin-top: 10px;
-            /* background-color: cyan; */
-            width: 35%;
+            width: 40px;
             float: left;
         }
-            .title {
-                display: inline-block;
-                font-size: 40px;
-            }
-            .description {
-                display: inline-block;
-                font-size: 14px;
-                line-height: 20px;
-            }
-            /* div > a {
-                color: white;
-                margin-left: 10px;
-                display: inline-block;
-                width: 180px;
-                height: 40px;
-                border-color: #6215F9;
-                border-style: solid;
-                background-color: #6215F9;
-                border-radius: 40px;
-                
-                font-size: 18px;
-                text-align: center;
-                text-decoration: none;
-                padding-top: 18px; */
-            /* } */
-            /* div > a:link {
-                color: white;
-            } */
-            /* div > a:hover{
-                color: #6215F9;
-                background-color: transparent;
-                 */
-               
-            /* } */
-        .main-img {
+
+        .header > .navigation {
             display: inline-block;
-            /* background-color: yellow; */
-            width: 60%;
             float: right;
         }
-
-.button{
-    display: inline-block;
-    padding: 10px;
-    background-color: #6215F9;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #6215F9;
-    border-radius: 25px;
-    line-height: 26px;
-    color: white;
-    text-decoration: none
+            .navigation > .link {
+                display: inline-block;
+                margin-left: 30px;
+                font-size: 18px;
+                text-decoration: none;
+                line-height: 40px;
+                color: #555;
+                vertical-align: middle;
+            }
+                .navigation > .link:hover {
+                    color: #888;
+                }
     
-}
-.button:hover{
-    display: inline-block;
-    color: #6215F9;
-    background-color: transparent;
-    text-decoration: underline;
-}
-.button-wider {
-    padding-left: 20px;
-    padding-right: 20px;
-}

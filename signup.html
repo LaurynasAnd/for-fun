@@ -5,19 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
-    <a href="index.html">BACK</a>
-    <main class="main" id="id01">
-        <div class="sideimg">
-            <h1 class="title">Sign up</h1>
-            <a class="link" href="index.html">Terms & Conditions</a>
+    <main class="container">
+        <div class="left">
+            LEFT CONTENT
         </div>
-        <div class="fill-form">
-    
+        <div class="right">
+            <span class="close" onclick="location.href='index.html'" title="CLOSE">&times;</span>
+            
+            <div class="fill-form-block">
+                <label class="fill-form-text">
+                    USERNAME
+                </label>
+                <input class="fill-form-input" type="text"  title="Enter your username" required>
+            </div>
+            <div class="fill-form-block">
+                <label class="fill-form-text">
+                    E-MAIL
+                </label>
+                <input class="fill-form-input" type="text"  title="Enter your e-mail" required>
+            </div>
+            <div class="fill-form-block">
+                <label class="fill-form-text">
+                    PASSWORD
+                </label>
+                <input class="fill-form-input" type="text"  title="Create a password" required>
+            </div>
+            <div class="fill-form-block">
+                <label class="fill-form-text">
+                    REPEAT PASSWORD
+                </label>
+                    <input class="fill-form-input" type="text"  title="Repeat your password" required>
+            </div>
+            <div class="fill-form-block">
+                Sing up or sign in
+            </div>
         </div>
-
     </main>
 
 </body>

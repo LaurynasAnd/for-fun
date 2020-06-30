@@ -1,15 +1,65 @@
-body {
-    /* background-color: green; */
-    background-image: url('../img/backgroung.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
+.container{
+    display: inline-block;
+    width: 800px;
+    margin: 80px calc(50% - 400px) 0;
+    background-color: yellow;
 }
-    
-        .sideimg{
-            background-image: url('../img/backgroung.png');
-            
-            width: 250px;
+
+
+    .container > .left {
+        background-color: green;
+        display: inline-block;
+        float: left;
+        width: 40%;
+    }
+
+
+    .container > .right {
+        background-color: lightblue;
+        display: inline-block;
+        padding: 80px;
+        float: left;
+        width: 60%;
+    }
+        .close {
+            display: inline-block;
+            background-color: white;
+            color: gray;
+            /* width: 40px; */
+            /* text-align: center; */
+            font-size: 40px;
+            float: right;
+            cursor: pointer;
+            padding: 0;
+            font-weight: 1000;
+            line-height: 30px;
+            font-family: arial;
+            vertical-align: center;
         }
-    
+        .close:hover {
+            color: red;
+        }
+        
+        .fill-form-block {
+            background-color: violet;
+            margin-bottom: 30px;
+        }
+            .fill-form-block:last-of-type {
+                margin 0;
+            }
+            .fill-form-text {
+                margin:
+                line-height: 20px;
+                color: black;
+            }
+            .fill-form-input {
+                font-family: verdana;
+                margin: 0;
+                padding: 0;
+                border-width: 0px 0px 2px;
+                border-color: gray;
+                line-height: 30px;
+
+                width: 100%;
+                background: yellow;
+            }
