@@ -35,7 +35,7 @@ body .button-too {
     box-shadow: 0 4px 4px #888;
 }
 body .button-too:hover {
-    background-color: rgb(105, 59, 255);
+    background-color: #693bff;
     cursor: pointer;
     box-shadow: 0 4px 8px #888;
     }

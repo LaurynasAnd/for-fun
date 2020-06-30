@@ -15,7 +15,44 @@ body {
             background-color: blue;
             width: 40%;
             position: relative;
+            padding: 45px 0;
         }
+
+        .container > .left > .image {
+            display: inline-block;
+            height: 100%;
+            size: ;
+            
+        }
+        .container > .left > .sign-up {
+            display: inline-block;
+            position: absolute;
+            left: 49px;
+            top: 68px;
+            font-size: 49px;
+            line-height: 50px;
+            color: white;
+        }
+        .container > .left > .term-line {
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            bottom: 5px;
+            color: white;
+        }
+        .container > .left > .term-line > .term-element {
+            display: inline-block;
+            float: left;
+            margin-right: 5px;
+            color: white;
+            line-height: 20px;
+            font-size: 14px;
+            background-color: turquoise;
+        }
+        .container > .left > .term-line > .term-link {}
+
+
+
 
 
         .container > .right {
