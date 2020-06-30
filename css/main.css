@@ -1,40 +1,49 @@
 body {
     /* background-color: green; */
-    /* background-image: url('../img/backgroung.png');
+    background-image: url('../img/backgroung.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: verdana;
-     */
+    
 }
-    .header {
+    
+
+    
+    .content {
         display: inline-block;
         width: 800px;
-        margin: 80px calc(50% - 400px);
-        vertical-align: middle;
+        margin: 20px calc(50% - 400px);
     }
-
-
-        .header > .logo {
+        .content > .texts {
             display: inline-block;
-            width: 40px;
             float: left;
+            width: 40%;
         }
 
-        .header > .navigation {
+            .texts > .title {
+                width: 100%;
+                margin: 40px 0 20px;
+                font-size: 50px;
+                display: inline-block;
+                text-transform: capitalize;
+            }
+
+            .texts > .description {
+                display: inline-block;
+                width: 100%;
+                font-size: 15px;
+                line-height: 30px;
+                margin: 10px 0 30px;
+                text-align: justify;
+            }
+
+
+
+
+        .content > .main-img {
             display: inline-block;
             float: right;
+            width: 60%;
         }
-            .navigation > .link {
-                display: inline-block;
-                margin-left: 30px;
-                font-size: 18px;
-                text-decoration: none;
-                line-height: 40px;
-                color: #555;
-                vertical-align: middle;
-            }
-                .navigation > .link:hover {
-                    color: #888;
-                }
     
