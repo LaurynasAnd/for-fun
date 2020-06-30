@@ -11,19 +11,21 @@ body {
 
         .container > .left {
             display: inline-block;
+            background-image: url("../img/mountain.png");
+            background-size: cover;
             float: left;
             background-color: blue;
             width: 40%;
+            height: 548px;
+            margin: 20px 0;
             position: relative;
-            padding: 45px 0;
         }
 
-        .container > .left > .image {
+        /* .container > .left > .image {
             display: inline-block;
             height: 100%;
-            size: ;
             
-        }
+        } */
         .container > .left > .sign-up {
             display: inline-block;
             position: absolute;
@@ -36,8 +38,8 @@ body {
         .container > .left > .term-line {
             display: inline-block;
             position: absolute;
-            left: 10px;
-            bottom: 5px;
+            left: 65px;
+            bottom: 15px;
             color: white;
         }
         .container > .left > .term-line > .term-element {
@@ -45,11 +47,13 @@ body {
             float: left;
             margin-right: 5px;
             color: white;
-            line-height: 20px;
+            line-height: 25px;
             font-size: 14px;
-            background-color: turquoise;
+            /* background-color: turquoise; */
         }
-        .container > .left > .term-line > .term-link {}
+        .container > .left > .term-line > .term-link:hover {
+            color: #ccc;
+        }
 
 
 
