@@ -1,7 +1,7 @@
 body  .button,
 #btn01 {
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     background-color: #52f;
     color: white;
     line-height: 40px;
@@ -14,9 +14,28 @@ body  .button,
 body .button:hover,
 #btn01:hover{
     background-color: #7851fa;
+    cursor: pointer;
 }
 
-main .button-wider {
+main .button-wider,
+.form  .button-wider {
     padding: 10px 50px;
 
 }
+body .button-too {
+    display: inline-block;
+    background-color: #52f;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 40px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #888;
+}
+body .button-too:hover {
+    background-color: rgb(105, 59, 255);
+    cursor: pointer;
+    box-shadow: 0 4px 8px #888;
+    }
