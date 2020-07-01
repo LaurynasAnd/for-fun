@@ -198,7 +198,8 @@ body {
 
 @media screen and (max-width: 330px) {
     .container > .left > .main-title {
-        font-size: 28px;
+        font-size: 18px;
+        line-height: 20px;
     }
     .container > .right > .form  .form-row > span {
         display: none;
