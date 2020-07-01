@@ -10,6 +10,7 @@
         .form > .form-row:last-of-type {
             margin-bottom: 0;
         }
+        
     
     .form > .form-row > label {
         display: inline-block;
@@ -28,7 +29,17 @@
         font-size: 18px;
         border: none;
         border-bottom: 2px solid #ccc;
-        padding: 10px 0;
+        padding: 10px 0;        
+    }
+        .form > .form-row > input:focus {
+            outline: 2px solid #aaa;
+            outline-offset: 2px;
+            border-color: transparent;
+        }
 
-        
+    .form > .forgot-pass {
+        display: inline-block;
+        margin-top: 10px;
+        columns: #52f;
+        text-decoration: none;
     }

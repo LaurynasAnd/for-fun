@@ -131,3 +131,100 @@ body {
             .right > .form > .form-row > a:hover {
                 color: #888;
             }
+        
+        .right > .form > .forgot-pass {
+            display: inline-block;
+            margin-top: 10px;
+            columns: #52f;
+            text-decoration: none;
+        }
+            .right > .form > .forgot-pass:hover {
+                color: #888;
+            }
+
+
+@media screen and (max-width: 800px){
+    .container  {
+        width: 480px;
+    }
+        .container > .left {
+            top: -50px;
+            bottom: -50px;
+            width: 100%;
+        }
+        .container > .left > .main-title {
+            top: 5px;
+            left: 20px;
+            line-height: 40px;
+            font-size: 35px;
+        }
+        .container > .right {
+            width: 480px;
+            padding: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            float: none;
+        }
+        .container > .left > .term-line {
+            left: 20px;
+            bottom: 5px;
+            right: 20px;
+        }
+        .container > .left > .term-line > .term-element {
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+}
+@media screen and (max-width: 480px){
+    .container  {
+        width: 100%;
+    }
+        .container > .left {
+            width: 100%;
+        }
+        
+        .container > .right {
+            width: 100%;
+            
+        }
+        
+        .container > .left > .term-line > .term-element {
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+}
+
+@media screen and (max-width: 330px) {
+    .container > .left > .main-title {
+        font-size: 28px;
+    }
+    .container > .right > .form  .form-row > span {
+        display: none;
+    }
+    .container > .right > .form > .form-row > label {
+        font-size: 10px;
+    }
+    .container > .right > .form > .form-row > input {
+        font-size: 12px;
+    }
+    .container > .right > .form > .form-row > a {
+        
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container > .right > .form > .form-row > .button-too {
+        padding: 5px 10px;
+    }
+    .container > .right > .form > .form-row > .links {
+        
+        font-size: 15px;
+    }
+    .container > .right > .form > .forgot-pass {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+}
