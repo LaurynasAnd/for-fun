@@ -2,7 +2,7 @@ body  .button,
 #btn01 {
     display: inline-block;
     /* vertical-align: middle; */
-    background-color: #52f;
+    background-color: #EA1E63;
     color: white;
     line-height: 40px;
     padding: 10px 20px;
@@ -14,7 +14,7 @@ body  .button,
 }
 body .button:hover,
 #btn01:hover{
-    background-color: #7851fa;
+    background-color: #ee3f79;
     cursor: pointer;
     box-shadow: 0 4px 8px #888;
 }
@@ -26,7 +26,7 @@ main .button-wider,
 }
 body .button-too {
     display: inline-block;
-    background-color: #52f;
+    background-color: #EA1E63;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -37,7 +37,7 @@ body .button-too {
     box-shadow: 0 4px 4px #888;
 }
 body .button-too:hover {
-    background-color: #693bff;
+    background-color: #EA1E63;
     cursor: pointer;
     box-shadow: 0 4px 8px #888;
     }
